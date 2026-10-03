@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Project Summary
+##  Project Summary
 
 For this PL/SQL assignment, I successfully implemented and tested the following components:
 1. **Database Setup (00_setup/):** Created and configured the `departments` and `employees` tables along with sample data for testing.
@@ -26,7 +26,7 @@ For this PL/SQL assignment, I successfully implemented and tested the following 
 
 ---
 
-## 📈 Git Commit Strategy (Meaningful Commits)
+## Git Commit Strategy (Meaningful Commits)
 
 In compliance with the assignment requirements (at least 5 meaningful commits), the version history was structured progressively:
 1. **Commit 1:** Initialize repository structure, `.gitignore`, and database setup scripts (`00_setup/`).
