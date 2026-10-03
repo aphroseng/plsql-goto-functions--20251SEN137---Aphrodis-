@@ -2,8 +2,7 @@
 
 * **Course:** Database Development with PL/SQL (INSY 8311)
 * **Instructor:** Eric Maniraguha
-* **Deadline:** Thursday, October 8, 2026 at 11:59 PM (Strictly enforced)
-* **Submission:** Public GitHub repository link via Google Form
+* **student: SENGA Aphrodis/20251SEN137**
 
 ---
 
