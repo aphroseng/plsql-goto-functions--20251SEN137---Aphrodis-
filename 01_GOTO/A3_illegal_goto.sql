@@ -1,4 +1,4 @@
-//A3_illegal_goto.sql
+//A3illegal
 //demostrate valid flow to avoid illegal using goto jump inner bloacks
 set serveroutput on;
 declare
