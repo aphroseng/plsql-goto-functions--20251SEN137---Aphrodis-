@@ -1,7 +1,7 @@
 # Individual Assignment III: Reflection Report
 
 * **Course:** Database Development with PL/SQL (INSY 8311)
-* **Student:** [SENGA Aphrodis/ 20252SEN137]
+* **Student:** SENGA Aphrodis/ 20252SEN137
 * **Date:** October 8, 2026
 
 ---
