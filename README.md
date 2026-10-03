@@ -1,7 +1,7 @@
 # Individual Assignment III: PL/SQL GOTO Statements and Functions
 
 * **Course:** Database Development with PL/SQL (INSY 8311)
-* **Instructor:** Eric Maniraguha
+* **Instructor:** Eric Maniraguha[span_0](start_span)[span_0](end_span)
 * **Deadline:** Thursday, October 8, 2026 at 11:59 PM (Strictly enforced)
 * **Submission:** Public GitHub repository link via Google Form
 
@@ -18,35 +18,19 @@ For this PL/SQL assignment, I successfully implemented and tested the following 
 
 ---
 
-## 📂 Repository Structure
+## ⚙️ Technical Highlights & Concepts Applied
 
-```text
-plsql-goto-functions-<studentID>-<firstname>/
-├── README.md
-├── .gitignore
-├── 00_setup/
-│   └── create_tables.sql
-├── 01_goto/
-│   ├── A1_number_classifier.sql
-│   ├── A2_salary_review.sql
-│   ├── A3_illegal_goto.sql
-│   └── A4_rewrite_no_goto.sql
-├── 02_functions/
-│   ├── B1_fn_annual_salary.sql
-│   ├── B2_fn_years_of_service.sql
-│   ├── B3_fn_calculate_tax.sql
-│   ├── B4_fn_dept_name.sql
-│   └── C1_fn_validate_payroll.sql
-├── 03_tests/
-│   ├── B5_functions_in_select.sql
-│   ├── test_functions.sql
-│   └── test_validate_payroll.sql
-├── screenshots/
-│   ├── A1_output.png
-│   ├── A2_output.png
-│   ├── A3_error_and_fix.png
-│   ├── A4_output.png
-│   ├── B5_select_output.png
-│   └── C1_output.png
-└── docs/
-    └── REFLECTION.md
+* **Control Flow (`GOTO` vs Structured IF-ELSIF):** Explored label jumps (`<<label_name>>)`) using `GOTO` and understood why structured programming alternatives (`IF-ELSIF-ELSE`) are best practice for maintainability.
+* **Null Handling (`NVL`):** Utilized `NVL(commission_pct, 0)` to prevent null propagation during annual salary and commission math calculations.
+* **Date Arithmetic (`MONTHS_BETWEEN`):** Computed exact employee tenure and years of service dynamically from `hire_date` to current system dates.
+* **Exception Handling:** Implemented robust error management using `EXCEPTION WHEN OTHERS THEN NULL` and handling `NO_DATA_FOUND` inside functions.
+
+---
+
+## 📈 Git Commit Strategy (Meaningful Commits)
+
+In compliance with the assignment requirements (at least 5 meaningful commits), the version history was structured progressively:
+1. **Commit 1:** Initialize repository structure, `.gitignore`, and database setup scripts (`00_setup/`).
+2. **Commit 2:** Complete Part A control flow scripts and GOTO implementations (`01_goto/`).
+3. **Commit 3:** Implement and compile core stored functions (`02_functions/`).
+4. **Commit 4:** Add SQL test scripts, SELECT query demonstrations, and output screenshots (`03_tests/`, `screenshots/`).
