@@ -36,7 +36,11 @@ In compliance with the assignment requirements (at least 5 meaningful commits), 
 4. **Commit 4:** Add SQL test scripts, SELECT query demonstrations, and output screenshots (`03_tests/`, `screenshots/`).
 5. **Commit 5:** Finalize documentation, `REFLECTION.md`, and complete `README.md`.
 
----
+---# 🚀 How to Run
+1. Run **`00_setup/create_tables.sql`** in Oracle SQL Developer.
+2. Compile and run functions in **`02_functions/`**.
+3. Execute scripts in **`01_goto/`** and **`03_tests/`**.
+4. Check your outputs against the `screenshots/` folder.
 
 ## 📂 Repository Structure
 
