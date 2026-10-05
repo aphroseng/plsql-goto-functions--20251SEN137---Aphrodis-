@@ -24,7 +24,7 @@ GOTO end_label;
 DBMS_OUTPUT.PUT_LINE('result: the number is ZORO');
 GOTO end_label;
 <<end_label>>
-<<POSITIVE_BRANCH>>
+
 DBMS_OUTPUT.PUT_LINE('execution completed');
 
 END;
