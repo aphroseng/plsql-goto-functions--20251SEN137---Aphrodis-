@@ -29,15 +29,13 @@ For this PL/SQL assignment, I successfully implemented and tested the following 
 In compliance with the assignment requirements (at least 5 meaningful commits), the version history was structured progressively:
 1. **Commit 1:** Initialize repository structure, .gitignore, and database setup scripts (00_setup/).
 2. **Commit 2:** Complete Part A control flow scripts and GOTO implementations (01_goto/).
-3. **Commit 3:** Implement and compile core stored functions (`02_functions/).
+3. **Commit 3:** Implement and compile core stored functions (02_functions/).
 4. **Commit 4:** Add SQL test scripts, SELECT query demonstrations, and output screenshots (03_tests/, screenshots/).
 5. **Commit 5:** Finalize documentation, REFLECTION.md, and complete README.md.
 
 ---# How to Run
 1. Run **00_setup/create_tables.sql** in Oracle SQL Developer.
-2. Compile and run functions in **02_functions/*.
-3. Execute scripts in **01_goto/* and **03_tests/*.
-4. Check your outputs against the screenshots/ folder.
+2. Compile and run functions in 02_functions.
+3. Execute scripts in 01_goto and    03_tests.
+4. Check your outputs against the screenshots
 
-└── docs/
-    └── REFLECTION.md
