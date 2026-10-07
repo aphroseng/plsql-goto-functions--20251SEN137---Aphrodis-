@@ -1,4 +1,4 @@
--- B4_fn_dept_name.sql
+
 -- Function to retrieve department name by ID.
 
 CREATE OR REPLACE FUNCTION fn_dept_name (
@@ -19,3 +19,4 @@ EXCEPTION
         RAISE;
 END fn_dept_name;
 /
+commit;
