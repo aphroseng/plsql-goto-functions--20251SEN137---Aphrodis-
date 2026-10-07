@@ -1,4 +1,4 @@
--- C1_fn_validate_payroll.sql
+
 -- Combined task function to validate payroll details.
 
 CREATE OR REPLACE FUNCTION fn_validate_payroll (
@@ -27,3 +27,4 @@ EXCEPTION
         RETURN 'ERROR: Validation failed';
 END fn_validate_payroll;
 /
+commit;
