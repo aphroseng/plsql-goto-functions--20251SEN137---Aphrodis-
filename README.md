@@ -27,10 +27,10 @@ For this PL/SQL assignment, I successfully implemented and tested the following 
 ## Git Commit Strategy Meaningful Commits
 
 In compliance with the assignment requirements (at least 5 meaningful commits), the version history was structured progressively:
-1. **Commit 1:** Initialize repository structure, .gitignore, and database setup scripts (00_setup/).
-2. **Commit 2:** Complete Part A control flow scripts and GOTO implementations (01_goto/).
-3. **Commit 3:** Implement and compile core stored functions (02_functions/).
-4. **Commit 4:** Add SQL test scripts, SELECT query demonstrations, and output screenshots (03_tests/, screenshots/).
+1. **Commit 1:** Initialize repository structure, .gitignore, and database setup scripts (00_setup).
+2. **Commit 2:** Complete Part A control flow scripts and GOTO implementations (01_goto).
+3. **Commit 3:** Implement and compile core stored functions (02_functions).
+4. **Commit 4:** Add SQL test scripts, SELECT query demonstrations, and output screenshots (03_tests, screenshots).
 5. **Commit 5:** Finalize documentation, REFLECTION.md, and complete README.md.
 
 ---# How to Run
