@@ -21,4 +21,4 @@ exception
   raise;
   end fn_annual_salary;
   /
-  
+  commit;
