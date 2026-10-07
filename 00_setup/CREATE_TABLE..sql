@@ -37,7 +37,7 @@ insert into departmentS values(20, 'IT','KIGALI');
 insert into departmentS values(30, 'SALES','KAMPALA');
 insert into departmentS values(40, 'FINANCE','MUSANZE');
 
-SELECT * FROM DEPARTMENTS;
+
 
 --INSERT INTO EMPLOYEES TABLE 
 insert into employees values(100, 'senga', 'iraguha', 5000, 0.10, TO_DATE('2015-06-15', 'YYYY-MM-DD'),10);
@@ -45,7 +45,7 @@ insert into employees values(101,'NIYIGENA','KELIA', 6000, 0.20, to_date('2021-0
 insert into employees values(102,'JOHN','MUGISHA', 3000, NULL, to_date('2023-04-04', 'YYYY-MM-DD'),20);
 insert into employees values(103,'DAVIDE','MUHIRE', 8000, 0.15, to_date('2019-09-20', 'YYYY-MM-DD'),30);
 insert into employees values(104,'KEVN','KSNNY', 7000, NULL, to_date('2025-05-09', 'YYYY-MM-DD'),40);
-SELECT * FROM EMPLOYEES;
+commit;
 
 
 
