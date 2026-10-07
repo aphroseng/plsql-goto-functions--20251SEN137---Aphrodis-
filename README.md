@@ -9,7 +9,7 @@
 ##  Project Summary
 
 For this PL/SQL assignment, I successfully implemented and tested the following components:
-1. **Database Setup (00_setup/):** Created and configured the `departments` and `employees` tables along with sample data for testing.
+1. **Database Setup (00_setup/:** Created and configured the `departments` and `employees` tables along with sample data for testing.
 2. **GOTO Statements (`01_goto/`):* Implemented control-flow scripts using `GOTO` statements for number classification, salary reviews, and structured rewrites.
 3. **Stored Functions (`02_functions/):* Developed modular PL/SQL functions to compute annual salaries using `NVL`, calculate years of service via `MONTHS_BETWEEN`, compute tiered income taxes, retrieve department names, and validate payroll records.
 4. **Testing & SQL Queries (`03_tests/`):** Verified function execution by testing them directly inside SQL `SELECT` queries and standalone test scripts within SQL Developer.
@@ -19,8 +19,8 @@ For this PL/SQL assignment, I successfully implemented and tested the following 
 
 ## Technical Highlights & Concepts Applied
 
-* **Control Flow (`GOTO vs Structured IF-ELSIF):* Explored label jumps (`<<label_name>>`) using `GOTO and understood why structured programming alternatives (`IF-ELSIF-ELSE`) are best practice for maintainability.
-* **Null Handling (NVL):** Utilized `NVL(commission_pct, 0)` to prevent null propagation during annual salary and commission math calculations.
+* **Control Flow (`GOTO vs Structured IF-ELSIF): Explored label jumps (<<label_name>>`) using `GOTO and understood why structured programming alternatives (`IF-ELSIF-ELSE`) are best practice for maintainability.
+* **Null Handling (NVL):** Utilized NVL(commission_pct, 0) to prevent null propagation during annual salary and commission math calculations.
 * **Date Arithmetic (MONTHS_BETWEEN):** Computed exact employee tenure and years of service dynamically from `hire_date` to current system dates.
 * **Exception Handling:** Implemented robust error management using `EXCEPTION WHEN OTHERS THEN NULL` and handling `NO_DATA_FOUND` inside functions.
 
